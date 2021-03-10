@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Monsy",
+    "slug": "monsy",
+    "version": "1.1.4",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "facebookScheme": "fb861336254618905",
+    "facebookAppId": "861336254618905",
+    "facebookDisplayName": "Monsy",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "usesAppleSignIn": true,
+      "bundleIdentifier": "dev.timistudio.ios.monsy",
+      "supportsTablet": true,
+      "buildNumber": "1.1.4",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3956553704092352~5128491413",
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.280779779846-24okspdsirbmh7rkkpd829ledai1op20"
+        }
+      }
+    },
+    "android": {
+      "package": "dev.timistudio.monsy",
+      "versionCode": 14,
+      "permissions": [],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3956553704092352~8549997145",
+        "googleSignIn": {
+          "apiKey": "AIzaSyCSkyFoLru5LIZH7WUsFGVvw3YUnXfDv9A",
+          "certificateHash": "E3E77FB62A63CD43E65F9C17210B2D91CDEB265D"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    }
+  }
+}
