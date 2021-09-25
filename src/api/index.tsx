@@ -9,11 +9,11 @@ import { getToken } from "../utils/store/Store";
 //export const SERVER_ADDRESS = 'http://0.0.0.0:3000';
 //export const SERVER_ADDRESS = 'http://10.0.2.2:3000';
 //export const SERVER_ADDRESS = 'http://localhost:3000';
-//export const SERVER_ADDRESS = 'http://192.168.55.107:3000';
+export const SERVER_ADDRESS = 'http://192.168.55.107:3000'; // run emulator
 //export const SERVER_ADDRESS = "http://52.14.81.56:3000";
 //export const SERVER_ADDRESS = "http://192.168.0.159:3000";
 //export const SERVER_ADDRESS = "http://192.168.1.23:3000";
-export const SERVER_ADDRESS = "http://192.168.55.108:3000";
+// export const SERVER_ADDRESS = "http://192.168.55.108:3000"; // if run real device => get ip of laptop
 
 export const BEARER = "Bearer";
 export const API_ENDPOINT = SERVER_ADDRESS + "/api/";
